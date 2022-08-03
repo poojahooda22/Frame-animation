@@ -1,0 +1,48 @@
+.container {
+    background-color: #FA2FB5;
+    width: 1920px;
+    height: 1080px;
+}
+.box {
+    background-color: #FFC23C;
+    width: 250px;
+    height: 1080px;
+    position: relative;
+    animation-name: firstBox;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+
+    
+}
+@keyframes firstBox {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 1380px;
+    }
+}
+.box2 {
+    background-color: #31087B;
+    width: 250px;
+    height: 1080px;
+    position: relative;
+    animation-name: secondBox;
+    animation-delay: 0.5s;
+    animation-iteration-count: 5; /*how many times the animation will repeat*/
+    animation-duration: 3s;
+    animation-fill-mode: forwards; /* once apply the animation, it will ends after the */
+
+    
+    
+}
+@keyframes secondBox {
+    from {
+    width: 400px;
+    }
+    to {
+        width: 1280px;
+    }
+}
